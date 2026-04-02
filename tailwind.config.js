@@ -1,0 +1,77 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        blue: {
+          25:  '#F5F8FF',
+          50:  '#EFF4FF',
+          100: '#D1E0FF',
+          200: '#A4C3FE',
+          300: '#76A9FD',
+          400: '#528BF9',
+          500: '#2563EB',
+          600: '#1D4ED8',
+          700: '#1E3FAA',
+          800: '#1E3482',
+          900: '#1C2F6B',
+        },
+        gray: {
+          25:  '#FCFCFD',
+          50:  '#F9FAFB',
+          100: '#F2F4F7',
+          200: '#E4E7EC',
+          300: '#D0D5DD',
+          400: '#98A2B3',
+          500: '#667085',
+          600: '#475467',
+          700: '#344054',
+          800: '#1D2939',
+          900: '#101828',
+          950: '#0C111D',
+        },
+        success: { 50: '#ECFDF3', 100: '#D1FADF', 200: '#A9EFC5', 300: '#6CE9A6', 400: '#32D583', 500: '#12B76A', 600: '#039855', 700: '#027A48' },
+        error:   { 50: '#FEF3F2', 100: '#FEE4E2', 200: '#FECDCA', 300: '#FDA29B', 400: '#F97066', 500: '#F04438', 600: '#D92D20', 700: '#B42318' },
+        warning: { 50: '#FFFAEB', 100: '#FEF0C7', 500: '#F79009', 600: '#DC6803', 700: '#B54708' },
+        violet:  { 50: '#F5F3FF', 500: '#7C3AED', 600: '#6D28D9' },
+        teal:    { 50: '#F0FDFA', 500: '#14B8A6', 600: '#0D9488' },
+        rose:    { 50: '#FFF1F2', 500: '#F43F5E', 600: '#E11D48' },
+      },
+      fontFamily: {
+        display: ['"Bricolage Grotesque"', 'system-ui', 'sans-serif'],
+        sans:    ['"Figtree"', 'system-ui', 'sans-serif'],
+        mono:    ['"JetBrains Mono"', 'monospace'],
+      },
+      fontSize: {
+        '2xs': ['0.625rem', { lineHeight: '0.875rem' }],
+      },
+      boxShadow: {
+        xs:   '0 1px 2px rgba(16,24,40,0.05)',
+        sm:   '0 1px 3px rgba(16,24,40,0.10), 0 1px 2px rgba(16,24,40,0.06)',
+        md:   '0 4px 8px -2px rgba(16,24,40,0.10), 0 2px 4px -2px rgba(16,24,40,0.06)',
+        lg:   '0 12px 16px -4px rgba(16,24,40,0.08), 0 4px 6px -2px rgba(16,24,40,0.03)',
+        xl:   '0 20px 24px -4px rgba(16,24,40,0.08), 0 8px 8px -4px rgba(16,24,40,0.03)',
+        focus:'0 0 0 4px rgba(37,99,235,0.15)',
+        'focus-error': '0 0 0 4px rgba(240,68,56,0.15)',
+      },
+      borderRadius: {
+        '4xl': '2rem',
+      },
+      animation: {
+        'fade-up':   'fadeUp 0.4s cubic-bezier(0.16,1,0.3,1) both',
+        'fade-in':   'fadeIn 0.3s ease both',
+        'scale-in':  'scaleIn 0.25s cubic-bezier(0.34,1.56,0.64,1) both',
+        'slide-down':'slideDown 0.3s cubic-bezier(0.16,1,0.3,1) both',
+      },
+      keyframes: {
+        fadeUp:    { '0%': { opacity:0, transform:'translateY(12px)' }, '100%': { opacity:1, transform:'translateY(0)' } },
+        fadeIn:    { '0%': { opacity:0 }, '100%': { opacity:1 } },
+        scaleIn:   { '0%': { opacity:0, transform:'scale(0.94)' }, '100%': { opacity:1, transform:'scale(1)' } },
+        slideDown: { '0%': { opacity:0, transform:'translateY(-8px)' }, '100%': { opacity:1, transform:'translateY(0)' } },
+      },
+    },
+  },
+  plugins: [],
+}
