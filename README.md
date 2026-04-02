@@ -1,100 +1,131 @@
-# FinVault — Finance Dashboard UI
+# FinVault — Finance Dashboard (Light & Dark Mode)
 
-A clean, interactive finance dashboard built with **React**, **Recharts**, and **Tailwind CSS**.
+A modern, responsive **Finance Dashboard Web Application** built using **React, Vite, and Tailwind CSS**.
+This project provides an interactive interface for tracking financial data, analytics, and insights with a seamless **Light & Dark mode toggle** for enhanced user experience.
 
-## Features
+---
 
-- **Dashboard Overview** — Summary cards (Balance, Income, Expenses, Savings Rate), area chart for balance trend, donut chart for spending breakdown, and recent transactions list
-- **Transactions Section** — Full list with search, filtering by type/category, sorting by date/amount, add/edit/delete (admin only), and CSV export
-- **Insights Section** — Spending analysis, monthly comparison bar chart, category breakdown, and smart financial observations
-- **Role-Based UI (RBAC)** — Switch between Admin (full CRUD) and Viewer (read-only) roles via the dropdown in the header
-- **State Management** — React Context API with centralized state for transactions, filters, and role
-- **Responsive Design** — Works across desktop and tablet screen sizes
-- **Optional Enhancements** — CSV export, animations/transitions, dark theme throughout
+## 🚀 Live Demo
 
-## Tech Stack
+🔗 https://finance-dashboard-calm-boba-af064f.netlify.app/
 
-- React 18
-- Recharts (charts)
-- Tailwind CSS (styling)
-- Lucide React (icons)
-- date-fns (date formatting)
-- Vite (build tool)
+---
 
-## Getting Started
+## 📌 Features
 
-### Prerequisites
-- Node.js 18+ installed
-- npm or yarn
+* 📊 Interactive Dashboard Interface
+* 🌗 Light & Dark Mode Toggle
+* 📱 Fully Responsive (Mobile + Desktop)
+* ⚡ Fast Performance with Vite
+* 🎨 Clean & Modern UI/UX
+* 📈 Financial Data Visualization
+* 🧭 Smooth Navigation Experience
 
-### Installation & Run
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS
+* **Package Manager:** npm
+
+---
+
+## 📂 Project Structure
 
 ```bash
-# Install dependencies
-npm install
+FINANCE-DASHBOARD/
+│── src/
+│── public/
+│── dist/
+│── index.html
+│── package.json
+│── vite.config.js
+│── tailwind.config.js
+```
 
-# Start the development server
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/abhisheksuvarna782-coder/FINANCE-DASHBOARD.git
+```
+
+### 2️⃣ Navigate to project folder
+
+```bash
+cd FINANCE-DASHBOARD
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run development server
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+---
 
-### Build for Production
+## 📦 Build for Production
 
 ```bash
 npm run build
-npm run preview
 ```
 
-## Project Structure
+---
 
-```
-src/
-├── context/
-│   └── AppContext.jsx       # Global state (transactions, role, filters)
-├── data/
-│   └── mockData.js          # Mock transactions & data helpers
-├── components/
-│   ├── Layout/
-│   │   ├── Sidebar.jsx
-│   │   └── Header.jsx
-│   ├── Dashboard/
-│   │   ├── SummaryCards.jsx
-│   │   ├── BalanceTrend.jsx
-│   │   ├── SpendingBreakdown.jsx
-│   │   └── RecentTransactions.jsx
-│   ├── Transactions/
-│   │   ├── TransactionList.jsx
-│   │   └── TransactionModal.jsx
-│   └── Insights/
-│       └── InsightsPanel.jsx
-├── pages/
-│   ├── Dashboard.jsx
-│   ├── Transactions.jsx
-│   └── Insights.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
-```
+## 🌍 Deployment
 
-## Role-Based Access
+This project is deployed using **Netlify**.
 
-| Feature | Admin | Viewer |
-|---|---|---|
-| View dashboard | ✅ | ✅ |
-| View transactions | ✅ | ✅ |
-| View insights | ✅ | ✅ |
-| Add transaction | ✅ | ❌ |
-| Edit transaction | ✅ | ❌ |
-| Delete transaction | ✅ | ❌ |
+🔗 Live Link:
+https://finance-dashboard-calm-boba-af064f.netlify.app/
 
-Switch roles using the dropdown in the top-right header.
+You can also deploy using:
 
-## Design Approach
+* GitHub Pages
+* Vercel
 
-The UI follows a **luxury dark fintech** aesthetic:
-- Deep navy color palette with gold accent (#f6c90e)
-- DM Serif Display + DM Sans typography pairing
-- Subtle noise texture, gradient borders, and glow effects
-- Staggered fade-in animations on page load
-- Micro-interactions on hover (cards, table rows, buttons)
+---
+
+## 📸 Screenshots
+
+*(Add screenshots showcasing both Light Mode & Dark Mode UI)*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Abhishek Suvarna**
+📧 [abhisheksuvarna782@gmail.com](mailto:abhisheksuvarna782@gmail.com)
+🔗 https://linkedin.com/in/abhishek-1bb2b6335
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
