@@ -5,7 +5,7 @@ This project provides an interactive interface for tracking financial data, anal
 
 ---
 
-## 🚀 Live Demo.
+## 🚀 Live Demo
 
 🔗 https://finance-dashboard-calm-boba-af064f.netlify.app/
 
