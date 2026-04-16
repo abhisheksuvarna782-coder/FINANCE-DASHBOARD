@@ -13,7 +13,7 @@ This project provides an interactive interface for tracking financial data, anal
 
 ## 📌 Features
 
-* 📊 Interactive Dashboard Interface
+* 📊 Interactive Dashboard Interface.
 * 🌗 Light & Dark Mode Toggle
 * 📱 Fully Responsive (Mobile + Desktop)
 * ⚡ Fast Performance with Vite
