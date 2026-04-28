@@ -19,7 +19,7 @@ This project provides an interactive interface for tracking financial data, anal
 * ⚡ Fast Performance with Vite
 * 🎨 Clean & Modern UI/UX
 * 📈 Financial Data Visualization
-* 🧭 Smooth Navigation Experience.
+* 🧭 Smooth Navigation Experience
 
 ---
 
