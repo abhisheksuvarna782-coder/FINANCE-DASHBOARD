@@ -4,7 +4,7 @@ A modern, responsive **Finance Dashboard Web Application** built using **React, 
 This project provides an interactive interface for tracking financial data, analytics, and insights with a seamless **Light & Dark mode toggle** for enhanced user experience.
 
 ---
-.
+..
 ## 🚀 Live Demo
 
 🔗 https://finance-dashboard-calm-boba-af064f.netlify.app/
